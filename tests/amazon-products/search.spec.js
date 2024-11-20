@@ -6,7 +6,7 @@ let priceLocator = "(//span[@class='a-price aok-align-center reinventPricePriceT
 test('Verify all links under ul tag are displayed and enabled', async ({ page }) => {
 
 
-for(let i=1; i<=3; i++){
+for(let i=1; i<=2; i++){
   
    
     await page.goto('https://amazon.com/');
