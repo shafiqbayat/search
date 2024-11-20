@@ -15,7 +15,11 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
+        env:
+          NPM_CONFIG_LOGLEVEL: verbose
       - run: npm test
+        env:
+          NPM_CONFIG_LOGLEVEL: verbose
 
   publish-gpr:
     needs: build
