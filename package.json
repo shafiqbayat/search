@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "npm run test:playwright",
     "test:playwright": "playwright test"
-
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,4 @@
     "@playwright/test": "^1.49.0",
     "@types/node": "^22.9.1"
   }
-   
 }
